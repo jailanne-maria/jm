@@ -201,6 +201,11 @@ main {
   font-size: 0.8rem;
   font-weight: 600;
   margin: 12px 8px 0 0;
+  text-decoration: none;
+}
+
+.tag-link:hover {
+  background: rgba(124, 92, 255, 0.3);
 }
 
 .contact-line {
