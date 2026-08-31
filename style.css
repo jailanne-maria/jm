@@ -46,6 +46,19 @@ body {
   font-size: 1.25rem;
   color: var(--accent);
   text-decoration: none;
+  display: flex;
+  align-items: center;
+}
+
+.nav-logo-img {
+  height: 40px;
+  width: auto;
+}
+
+.hero-logo {
+  width: 96px;
+  height: auto;
+  margin-bottom: 24px;
 }
 
 .nav-links a {
