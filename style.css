@@ -257,3 +257,88 @@ main {
     padding-top: 110px;
   }
 }
+
+.caso {
+  padding: 120px 0 60px;
+}
+
+.caso-header {
+  text-align: center;
+  padding-bottom: 40px;
+}
+
+.caso-title {
+  font-family: 'Space Grotesk', sans-serif;
+  font-size: clamp(2rem, 5vw, 3rem);
+  margin-top: 16px;
+  background: linear-gradient(90deg, var(--accent), var(--accent-2));
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: transparent;
+}
+
+.caso-sub {
+  color: var(--muted);
+  font-size: 1.1rem;
+  max-width: 620px;
+  margin: 16px auto 0;
+}
+
+.caso-meta {
+  color: var(--accent-2);
+  margin-top: 16px;
+  font-size: 0.95rem;
+}
+
+.caso-meta a {
+  color: var(--accent);
+}
+
+.caso-block {
+  border-top: 1px solid var(--border);
+  padding: 32px 0;
+}
+
+.caso-block h2 {
+  font-family: 'Space Grotesk', sans-serif;
+  font-size: 1.4rem;
+  color: var(--accent);
+  margin-bottom: 16px;
+}
+
+.caso-block p {
+  color: var(--muted);
+  margin-bottom: 12px;
+}
+
+.caso-block strong {
+  color: var(--text);
+}
+
+.caso-list {
+  color: var(--muted);
+  padding-left: 20px;
+  margin-bottom: 16px;
+}
+
+.caso-list li {
+  margin-bottom: 8px;
+}
+
+.caso-cta {
+  display: flex;
+  gap: 16px;
+  flex-wrap: wrap;
+  margin-top: 24px;
+}
+
+.caso-back {
+  border-top: 1px solid var(--border);
+  padding-top: 24px;
+}
+
+.caso-back a {
+  color: var(--accent);
+  text-decoration: none;
+}
